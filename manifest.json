@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "1Password Reloader",
+    "version": "0.1",
+    "description": "This simple extension makes sure that your 1Password extension is properly loaded.",
+    "icons": {},
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "permissions": [
+        "tabs",
+        "management"
+    ]
+}
+
